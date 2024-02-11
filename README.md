@@ -17,6 +17,9 @@ This compiler suite supports a tailored subset of C++ language specifications, f
 - **Memory Management**: dynamic allocation and deallocation are implemented through `new` and `delete []`
 - **Function Design**: a single `return` statement is required at the end of functions
 
+### Deterministic Finite Automaton of Language
+  ![image](https://github.com/sabdulmajid/CPP-Compiler-Landing-Page/assets/85283195/5c833db5-6d0b-461a-be3e-f91c8f3c3294)
+
 ### Lexical Syntax
 The compiler supports a rigorous lexical syntax that includes identifiers (`ID`), numeric literals (`NUM`), various symbols (`LPAREN`, `RPAREN`, `LBRACE`, `RBRACE`), keywords (`RETURN`, `IF`, `ELSE`, `WHILE`), and operators (`PLUS`, `MINUS`, `STAR`). Tokens are case-sensitive and follow specific rules to ensure a clear distinction between different types, with whitespace and comments being ignored during tokenization for a clean and unambiguous token sequence.
 
